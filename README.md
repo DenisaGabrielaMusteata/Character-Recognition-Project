@@ -2,7 +2,7 @@
 
 This project is a MATLAB-based graphical user interface (GUI) designed for automatic text recognition from digital images using Optical Character Recognition (OCR). It was developed as part of a university assignment at the **Faculty of Automatic Control and Computer Engineering**.
 
-## 📌 Project Overview
+## Project Overview
 
 The main objective of the project is to build a computer vision system capable of recognizing characters written on white paper. The system allows the user to either select an image from their computer or capture one using a webcam, and then processes the image to extract text using OCR.
 
@@ -12,7 +12,7 @@ Key features:
 - Extract and display recognized text directly in the GUI
 - Clean and intuitive user interface
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 The core script of the project is `imageGUI.m`, which:
 - Creates the GUI window using `uifigure`
@@ -38,11 +38,11 @@ The core script of the project is `imageGUI.m`, which:
 - `webcam`, `snapshot`, `clear`
 - `rgb2gray`, `imresize`, `ocr`, `getimage`
 
-## ✅ Results
+## Results
 
 The GUI allows seamless interaction for both loading and processing images. The recognized text is displayed in a user-friendly way and the system performs well with printed characters on plain backgrounds.
 
-## 📚 Conclusion
+## Conclusion
 
 This project showcases the power of MATLAB for building interactive applications that combine GUI design with image processing and character recognition. It can be further extended with features such as:
 - Language detection
@@ -50,16 +50,16 @@ This project showcases the power of MATLAB for building interactive applications
 - Integration with databases
 - Enhanced performance metrics
 
-## 🏫 Academic Context
+## Academic Context
 
 This project was developed as part of a university assignment at the **Faculty of Automatic Control and Computer Engineering**.
 
-## 👤 Author
+## Author
 
 **Denisa Gabriela Musteata**  
 Student, Faculty of Automatic Control and Computer Engineering
 
-## 📖 Bibliography
+## Bibliography
 
 1. Smith, R. (2007). *An overview of the Tesseract OCR engine*. ICDAR.
 2. Breuel, T. M. (2008). *The OCRopus open source OCR system*. Document Recognition and Retrieval XV.
